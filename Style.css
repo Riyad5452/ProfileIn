@@ -1,0 +1,146 @@
+
+/* Sidebar */
+#sidebar-wrapper{
+    z-index:998;
+    position: absolute;
+    width:0;
+    height:100%;
+    overflow-y:hidden;
+    /*background: linear-gradient(135deg,#6ae7f7 20%,#3cb9c7 80%);*/
+    background: #222;
+    opacity:0.9;
+      transition:all .5s;
+      display:flex;
+      align-items:center;
+
+  }
+
+
+  /* Main Content */
+  #page-content-wrapper{
+    width: 100%;	
+    position: absolute;
+    padding:15px;
+      transition:all .5s;
+
+  }
+  
+  #menu-toggle{
+      transition:all .3s;
+      font-size:2em;
+      color:#222;
+  }
+
+  /* cont later ok na nakakasudo na ako dami ko nakain */ 
+
+  /* Change the width of the sidebar to display it*/
+  #wrapper.menuDisplayed #sidebar-wrapper{
+    width:250px;
+   
+  }
+  
+  #wrapper.menuDisplayed #page-content-wrapper{
+    padding-left:250px;
+  }
+  
+  /* Sidebar styling */
+  .sidebar-nav, .navbar-brand{
+    padding:0;
+    list-style:none; 
+      transition:all .5s;
+      width:100%;
+      text-align:center;
+  }
+  
+  .sidebar-nav li, .navbar-brand{
+    line-height:70px;  
+      width:100%;
+      transition:all .3s;
+      padding:10px;
+      padding: 10px;
+  }
+  
+  .sidebar-nav li a {
+    display:block;
+    text-decoration:none;
+    color:#fff;
+
+  }
+  
+  .sidebar-nav li a:hover{
+
+    color:darkorange;
+  
+  }
+  
+.navbar-brand{
+  margin-bottom: 55px;
+}
+
+  
+  
+img{
+  height: 50px;
+  width: 100%;
+  
+}
+
+/*body{
+ background-image: url("https://images.unsplash.com/photo-1590605105526-5c08f63f89aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background: linear-gradient(to left, #333, #eee 90%, #333);
+  background-size: 100% 650px;
+  margin-bottom: 80px;
+  z-index: index -4;
+}*/
+
+
+footer {
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: -3;
+}
+
+footer p {
+  margin: 6px 0;
+}
+
+footer i {
+  color: red;
+}
+
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
+}
+
+
+
+
+
+ #ph-standard-time{
+  
+
+  color:#000; 
+  opacity:15; 
+  font-size:2.5rem; 
+  line-height:0.85rem;
+  text-align:center;
+   
+   letter-spacing: 1px;
+}
+
+#clockbox, #info{
+color:#000; 
+opacity:15; 
+font-size:1.5rem; 
+line-height:0.85rem;
+text-align:center;
+ 
+ letter-spacing: 1px;
+}
